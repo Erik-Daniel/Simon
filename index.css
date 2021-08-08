@@ -1,0 +1,53 @@
+
+#red {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: red;
+}
+
+#blue {
+    width: 150px;
+    height: 150px;
+    
+    margin: 5px;
+    background-color: blue;
+
+}
+
+#yellow {
+    width: 150px;
+    height: 150px;
+    
+    margin: 5px;
+    background-color: yellow;
+
+}
+
+
+#green {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    background-color: green;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cube {
+    border: 5px black solid;
+}
+
+
+.cube:hover {
+    cursor: pointer;
+}
