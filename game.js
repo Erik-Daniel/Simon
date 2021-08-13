@@ -3,7 +3,6 @@ const blue = document.getElementById("blue");
 const yellow = document.getElementById("yellow");
 const green = document.getElementById("green");
 const play = document.getElementById("play");
-const settings = document.getElementById("settings");
 const colors = ["red","blue","yellow","green"];
 const roundText = document.getElementById("round-text");
 const modal = document.getElementById("modal");
@@ -202,11 +201,9 @@ play.addEventListener("click", function() {
 });
 
 
-settings.addEventListener('click',function() {hideButtons()});
 
 function hideButtons() {
     play.style.visibility = "hidden";
-    settings.style.visibility = "hidden";
 }
 
 
