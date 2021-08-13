@@ -9,7 +9,15 @@
 </head>
 <body>
     <h1>Simon</h1>
+    <h2 id="round-text">Round</h2>
+    
+    
     <div class="container">
+        <div id="modal">
+            <h2 id="modal-headding"></h2>
+            <button id="modal-play" class="modal-buttons">Play Again</button>
+            <button id="modal-menu" class="modal-buttons">Back to Main Menu</button>
+        </div>
         <div class="board">
             <div class="top-bar">
                 <div class="cube" id="red"></div>
@@ -22,8 +30,10 @@
         </div>
            
     </div>
-    <div class="buttons">
-        <button id="play">play</button>
+    <div class="buttons-container">
+        <div class="buttons">
+            <button class="buttons-style" id="play">play</button>   
+        </div>
     </div>
     <script src="game.js"></script>
 </body>
