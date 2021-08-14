@@ -29,8 +29,8 @@ green.addEventListener("click", function() {cubeClicked("green")});
 playAgain.addEventListener("click",function() {restart(); startGame();});
 menu.addEventListener("click",function() {location.reload()});
 
-
 removePlayerTurn();
+
 function startGame() {
     
 roundText.style.visibility = "visible";
